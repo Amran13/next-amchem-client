@@ -4,12 +4,12 @@ import SpeciesCard from "@/components/SpeciesCard"
 
 export default function Page() {
   return (
-    <div className="p-6 space-y-10 lg:max-w-7xl mx-auto">
+    <div className="p-6 space-y-10 lg:max-w-7xl mx-auto ">
       <div>
         <h1 className="text-4xl font-bold mb-4 text-[#212E84]">Solution by Composition</h1>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           {productsData.categories.map(cat => (
-            <CategoryCard key={cat.slug} name={cat.name} slug={cat.slug} />
+            <CategoryCard key={cat.slug} name={cat.name} image={cat.image} slug={cat.slug} />
           ))}
         </div>
       </div>

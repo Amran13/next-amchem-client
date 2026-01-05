@@ -11,7 +11,7 @@ const page = () => {
         <div>
             {/* <HeadQuarters></HeadQuarters> */}
             <ContactForm></ContactForm>
-            <CareerApplicationForm></CareerApplicationForm>
+            {/* <CareerApplicationForm></CareerApplicationForm> */}
             
         </div>
     );

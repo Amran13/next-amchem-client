@@ -4,7 +4,7 @@ const DistributorRequirements = () => {
   return (
     <section className="py-16 bg-base-200">
       <div className="max-w-4xl mx-auto px-4 text-base-content leading-relaxed">
-        <h2 className="text-3xl font-bold underline mb-8">
+        <h2 className="text-3xl font-bold  mb-8">
           Distributor Requirements
         </h2>
 

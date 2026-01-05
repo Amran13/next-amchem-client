@@ -54,7 +54,7 @@ const TimelineHistory = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: false }}
           transition={{ duration: 0.5 }}
-          className="text-3xl md:text-4xl font-bold text-center text-[#1F3A5F] mb-12 underline"
+          className="text-3xl md:text-4xl font-bold text-center text-[#1F3A5F] mb-12"
         >
           Our Journey Through Time
         </motion.h2>

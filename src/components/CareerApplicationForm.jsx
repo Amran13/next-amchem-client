@@ -76,17 +76,7 @@ export default function CareerApplicationForm() {
           </select>
         </div>
 
-        <div>
-          <label className="font-medium mb-1">Resume (PDF/DOC)</label>
-          <input
-            type="file"
-            name="resume"
-            accept=".pdf,.doc,.docx"
-            className="file-input file-input-bordered w-full"
-            onChange={handleChange}
-            required
-          />
-        </div>
+        
 
         <button className="btn btn-primary w-full flex items-center gap-2">
           <Send className="size-4" />

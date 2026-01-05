@@ -3,6 +3,7 @@ export const productsData = {
     {
       slug: "medicated-premix",
       name: "Medicated Premix",
+      image: "/medicated-premix.jpg",
       items: [
         {
           id: "amchem-flavomycine-premix",
@@ -644,6 +645,7 @@ export const productsData = {
     {
       slug: "anticoccidial-premixes",
       name: "Anticoccidial Premixes",
+      image: "/anticoccidial-premix.jpg",
       items: [
         {
           id: "amchem-salinicox",
@@ -1166,6 +1168,7 @@ export const productsData = {
     {
       slug: "vitamin-and-mineral-supplements",
       name: "Vitamin & Mineral Supplements",
+      image: "/vitamin-and-minerals.jpg",
       items: [{
         id: "amvit-c-stable",
         brand: "AMCHEM",
@@ -1388,6 +1391,7 @@ export const productsData = {
     {
       slug: "toxin-binders",
       name: "Toxin Binders",
+      image: "/toxin-binder.jpg",
       items: [{
         id: "amchem-adsorvent",
         brand: "AMCHEM",
@@ -1578,6 +1582,7 @@ export const productsData = {
     {
       slug: "mold-inhibitors",
       name: "Mold Inhibitors",
+      image: "/mold-inhibitor.jpg",
       items: [{
           id: "amchem-antimold",
           brand: "AMCHEM",
@@ -1691,6 +1696,7 @@ export const productsData = {
     {
       slug: "feed-acidifiers",
       name: "Feed Acidifiers",
+      image: "/feed-acidifier.jpg",
       items: [{
           id: "amchem-acid",
           brand: "AMCHEM",
@@ -1813,6 +1819,7 @@ export const productsData = {
     {
       slug: "feed-flavours",
       name: "Feed Flavours",
+      image: "/feed-flavour.jpg",
       items: [{
           id: "amchem-flavour",
           brand: "AMCHEM",
@@ -1855,6 +1862,7 @@ export const productsData = {
     {
       slug: "agp-replacement-products",
       name: "AGP Replacement Products",
+      image: "/agp-replacement.jpg",
       items: [{
           id: "amchem-allicin",
           brand: "AMCHEM",

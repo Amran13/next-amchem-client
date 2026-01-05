@@ -36,7 +36,7 @@ export default function Commitment() {
       title: "Partnership",
       desc: "Long-term relationships built on trust, transparency, and mutual success.",
       bg: "bg-yellow-50",
-       icon: "https://cdn.jsdelivr.net/npm/iconoir@latest/icons/handshake.svg",
+       icon: "/hand-shake.png",
     },
   ];
 
