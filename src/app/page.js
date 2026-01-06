@@ -22,7 +22,7 @@ export default function Home() {
       <WhatMakesUsDifferent></WhatMakesUsDifferent>
       {/* <Service></Service> */}
       {/* <TeamMember></TeamMember> */}
-      <StatsSection></StatsSection>
+      {/* <StatsSection></StatsSection> */}
 
     </div>
   );

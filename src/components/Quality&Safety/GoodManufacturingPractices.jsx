@@ -42,29 +42,30 @@ const GoodManufacturingPractices = () => {
   ];
 
   return (
-    <section className="py-20 bg-base-200">
-          <h2 className="text-5xl font-bold  mb-8 text-center">
-            Good Manufacturing Practices
-          </h2>
-      <div className="max-w-6xl mx-auto px-4 grid lg:grid-cols-2 gap-12 items-start">
-        <div className="sticky top-28">
+    <section className="py-12 md:py-20 bg-base-200">
+      <h2 className="text-3xl md:text-5xl font-bold mb-6 md:mb-10 text-center px-4">
+        Good Manufacturing Practices
+      </h2>
+
+      <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-start">
+        <div className="lg:sticky lg:top-28">
           <img
             src="/manufacture.avif"
             alt="Good Manufacturing Practices"
-            className="rounded-2xl w-full h-[screen] object-cover shadow-lg"
+            className="rounded-2xl w-full h-[220px] sm:h-[300px] md:h-[400px] lg:h-[520px] object-cover shadow-lg"
           />
         </div>
 
-        <div className="leading-relaxed text-base-content">
-
-          <div className="space-y-6">
+        <div className="leading-relaxed text-sm sm:text-base text-base-content">
+          <div className="space-y-4 sm:space-y-6">
             {items.map((item, i) => (
               <div
                 key={i}
-                className="bg-base-100 rounded-xl p-6 border border-base-300"
+                className="bg-base-100 rounded-xl p-4 sm:p-6 border border-base-300"
               >
                 <p>
-                  <strong>{item.title}</strong> {item.text}
+                  <strong className="block mb-1">{item.title}</strong>
+                  {item.text}
                 </p>
               </div>
             ))}

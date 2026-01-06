@@ -32,7 +32,7 @@ export default function CertificatesSection() {
   ];
 
   return (
-    <section className="bg-zinc-100 py-20 h-screen px-6 md:px-12 lg:px-24">
+    <section className="bg-zinc-100 py-20 md:h-screen px-6 md:px-12 lg:px-24">
       <div className="text-center mb-14">
         <motion.h2
           initial={{ opacity: 0, y: -20 }}

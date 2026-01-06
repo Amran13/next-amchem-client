@@ -2,10 +2,10 @@ import Image from "next/image";
 
 export default function ResearchCollaborationSection() {
   return (
-    <section className="bg-white pt-20 pb-32">
-      <div className="max-w-7xl mx-auto px-20 grid lg:grid-cols-2 gap-16 items-center">
-        <div className="relative w-full flex justify-center">
-          <div className="absolute -left-6 top-16 w-96 h-72 bg-[#212E84]/90 z-0"></div>
+    <section className="bg-white md:pt-20 pb-32 pl-2 md:pl-0">
+      <div className="max-w-7xl mx-auto md:px-20 grid grid-cols-1 lg:grid-cols-2 md:gap-16 items-center">
+        <div className="relative w-full flex justify-center ">
+          <div className="absolute -left-6 top-16 md:w-96 w-60 h-72 bg-[#212E84]/90 z-0 "></div>
 
           <div className="relative z-10 right-12">
             <Image
@@ -20,7 +20,7 @@ export default function ResearchCollaborationSection() {
             </p> */}
           </div>
 
-          <div className="absolute left-60 bottom-[-80px] z-20">
+          <div className="absolute left-32 md:left-60 -bottom-20 z-20">
             <img
               src="/lab-1.jpg"
               alt="Laboratory research"
@@ -31,7 +31,7 @@ export default function ResearchCollaborationSection() {
           </div>
         </div>
 
-        <div className="text-left">
+        <div className="text-left md:mt-0 mt-24">
           <h3 className="text-4xl font-bold text-[#212E84] mb-6">
             Research & Development Collaboration
           </h3>

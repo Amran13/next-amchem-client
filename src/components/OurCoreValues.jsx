@@ -48,7 +48,7 @@ export default function OurCoreValues() {
         </div>
 
         <div className="bg-white rounded-3xl shadow-lg overflow-hidden">
-          <div className="grid grid-cols-1 md:grid-cols-3">
+          <div className="grid  md:grid-cols-3">
             {features.map((f, i) => (
               <div
                 key={i}

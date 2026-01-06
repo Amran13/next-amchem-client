@@ -22,16 +22,16 @@ export default function CoreProductCategories() {
       href: "/products/category/toxin-binders",
     },
     {
-      name: "Feed preservation",
-      href: "/products/category/feed-preservation",
+      name: "Feed Acidifier",
+      href: "/products/category/feed-acidifiers",
     },
     {
-      name: "pH modifiers",
-      href: "/products/category/ph-modifiers",
+      name: "Mold Inhibitors",
+      href: "/products/category/mold-inhibitors",
     },
     {
-      name: "Antibiotic growth promoter alternatives",
-      href: "/products/category/antibiotic-growth-promoter-alternatives",
+      name: "AGP Replacement",
+      href: "/products/category/agp-replacement-products",
     },
   ];
   const row1 = productCategories.slice(0, 4);
@@ -75,7 +75,7 @@ export default function CoreProductCategories() {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true }}
-        className="flex justify-center gap-6"
+        className="flex justify-center gap-6 md:flex-row flex-col items-center"
       >
         {row1.map((c, i) => (
           <motion.div key={i} variants={item}>
@@ -101,7 +101,7 @@ export default function CoreProductCategories() {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true }}
-        className="flex justify-center gap-6"
+        className="flex justify-center gap-6 md:flex-row flex-col items-center"
       >
         {row2.map((c, i) => (
           <motion.div key={i} variants={item}>
