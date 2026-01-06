@@ -3,7 +3,7 @@ const nextConfig = {
   plugins: {
     '@tailwindcss/postcss': {},
   },
-  // output: "export",
+  output: "export",
   images: {
     unoptimized: true,
   },

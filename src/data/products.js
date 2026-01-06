@@ -1169,7 +1169,8 @@ export const productsData = {
       slug: "vitamin-and-mineral-supplements",
       name: "Vitamin & Mineral Supplements",
       image: "/vitamin-and-minerals.jpg",
-      items: [{
+      items: [
+        {
         id: "amvit-c-stable",
         brand: "AMCHEM",
         product: "AMVIT-C STABLE",
@@ -1392,7 +1393,8 @@ export const productsData = {
       slug: "toxin-binders",
       name: "Toxin Binders",
       image: "/toxin-binder.jpg",
-      items: [{
+      items: [
+        {
         id: "amchem-adsorvent",
         brand: "AMCHEM",
         product: "AMCHEM ADSORVENT",
@@ -1583,7 +1585,8 @@ export const productsData = {
       slug: "mold-inhibitors",
       name: "Mold Inhibitors",
       image: "/mold-inhibitor.jpg",
-      items: [{
+      items: [
+        {
           id: "amchem-antimold",
           brand: "AMCHEM",
           product: "AMCHEM ANTIMOLD",
@@ -1697,7 +1700,8 @@ export const productsData = {
       slug: "feed-acidifiers",
       name: "Feed Acidifiers",
       image: "/feed-acidifier.jpg",
-      items: [{
+      items: [
+        {
           id: "amchem-acid",
           brand: "AMCHEM",
           product: "AMCHEM ACID",
@@ -1863,7 +1867,8 @@ export const productsData = {
       slug: "agp-replacement-products",
       name: "AGP Replacement Products",
       image: "/agp-replacement.jpg",
-      items: [{
+      items: [
+        {
           id: "amchem-allicin",
           brand: "AMCHEM",
           product: "AMCHEM ALLICIN",

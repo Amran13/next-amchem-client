@@ -1,6 +1,19 @@
 import { productsData } from "@/data/products"
 import ProductCard from "@/components/ProductCard"
 
+export function generateStaticParams() {
+  return [
+    { slug: "medicated-premix" },
+    { slug: "anticoccidial-premixes" },
+    { slug: "vitamin-and-mineral-supplements" },
+    { slug: "toxin-binders" },
+    { slug: "mold-inhibitors" },
+    { slug: "feed-acidifiers" },
+    { slug: "feed-flavours" },
+    { slug: "agp-replacement-products" },
+  ];
+}
+
 export default async function Page({ params }) {
   const { slug } = await params
 

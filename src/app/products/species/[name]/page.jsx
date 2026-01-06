@@ -1,6 +1,19 @@
 import { productsData } from "@/data/products"
 import ProductCard from "@/components/ProductCard"
 
+export function generateStaticParams() {
+  return [
+    { name: "broiler" },
+    { name: "layer" },
+    { name: "aquaculture" },
+    { name: "swine" },
+    { name: "cattle" },
+    { name: "turkey" },
+    { name: "goats-and-sheep" },
+    { name: "rabbits" },
+  ];
+}
+
 export default async function Page({ params }) {
   const {name} = await params
   // console.log(name)
