@@ -26,11 +26,12 @@ const LegalCompliance = () => {
               <p className="mb-4">
                 <span className="font-semibold">General Terms of Sale:</span>{" "}
                 Standard commercial terms governing product sale, delivery,
-                payment, liability, and dispute resolution. Available at{" "}
+                payment, liability, and dispute resolution. 
+                {/* Available at{" "}
                 <span className="text-[#212E84] underline">
                   www.amchem-bv.com/terms
                 </span>{" "}
-                or upon request.
+                or upon request. */}
               </p>
 
               <p>
@@ -50,10 +51,11 @@ const LegalCompliance = () => {
               <p>
                 Data collection, processing, and protection practices compliant
                 with GDPR and applicable privacy regulations. Personal
-                information handling, cookies policy, user rights. Full policy:{" "}
+                information handling, cookies policy, user rights. 
+                {/* Full policy:{" "}
                 <span className="text-[#212E84] underline">
                   www.amchem-bv.com/privacy
-                </span>
+                </span> */}
               </p>
             </div>
           </div>
@@ -68,10 +70,11 @@ const LegalCompliance = () => {
               <p>
                 Product registration status by country, maximum residue limits,
                 withdrawal periods, regulatory updates available through
-                customer portal or{" "}
+                customer portal 
+                {/* or{" "}
                 <span className="text-[#212E84] underline">
                   regulatory@amchem-bv.com
-                </span>
+                </span> */}
               </p>
             </div>
           </div>

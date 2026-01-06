@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import {
   FiUsers,
@@ -91,10 +92,12 @@ const ProfessionalPositions = () => {
                 </div>
                 <p className="text-base-content/80">
                   <span className="font-semibold">Application:</span> Send CV to{" "}
-                  <span className="text-primary font-medium">
-                    careers@amchem-bv.com
-                  </span>{" "}
-                  specifying position of interest
+                  <span className="hover:underline text-blue-900 mr-1  font-bold">
+                     <Link  href="/contact">
+                      Contact Page 
+                    </Link>
+                  </span>
+                     specifying position of interest
                 </p>
               </div>
             </div>

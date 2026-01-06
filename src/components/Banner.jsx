@@ -17,20 +17,20 @@ const Banner = () => {
       </video>
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black/70"></div>
+      <div className="absolute inset-0 bg-black/55"></div>
 
       {/* Content */}
       <div className="relative z-10 hero-content text-center text-white">
         <div className="max-w-2xl">
-          <h1 className="mb-5 text-7xl text-[#ffffff] font-bold drop-shadow-lg">
+          <h1 className="mb-5 md:text-7xl text-5xl text-[#ffffff] font-bold drop-shadow-lg">
             AMCHEM
           </h1>
           <div className=" flex justify-center">
-            <p className="mb-5 text-lg text-gray-200 drop-shadow-md">
+            <p className="mb-5 md:text-lg text-base text-gray-200 drop-shadow-md">
               AMCHEM is one of the leading pharmaceutical manufacturers specializing in veterinary feed additives and medicated premixes for global livestock production. AMCHEM delivers science-based nutritional and therapeutic solutions to poultry, cattle, swine, aquaculture, and other animal industries around the world that optimize animal health, production efficiency, and antimicrobial stewardship while maintaining environmental sustainability and food safety standards.
             </p>
           </div>
-          <Link href="http://localhost:3000/products">
+          <Link href="/products">
           <button className="btn btn-primary shadow-lg">See Our Products</button></Link>
         </div>
       </div>

@@ -2,38 +2,52 @@
 import React from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function CoreProductCategories() {
   const productCategories = [
     {
       name: "Medicated premixes",
       href: "/products/category/medicated-premix",
+      image: "/medicated-premix.jpg",
     },
     {
       name: "Anticoccidial premixes",
       href: "/products/category/anticoccidial-premixes",
+      image: "/anticoccidial-premix.jpg",
     },
     {
       name: "Vitamin–mineral supplements",
       href: "/products/category/vitamin-and-mineral-supplements",
+      image: "/vitamin-and-minerals.jpg",
     },
     {
       name: "Mycotoxin binders",
       href: "/products/category/toxin-binders",
+      image: "/toxin-binder.jpg",
     },
     {
       name: "Feed Acidifier",
       href: "/products/category/feed-acidifiers",
+      image: "/feed-acidifier.jpg",
     },
     {
       name: "Mold Inhibitors",
       href: "/products/category/mold-inhibitors",
+      image: "/mold-inhibitor.jpg",
+    },
+    {
+      name: "Feed Flavours",
+      href: "/products/category/feed-flavours",
+      image: "/feed-flavour.jpg",
     },
     {
       name: "AGP Replacement",
       href: "/products/category/agp-replacement-products",
+      image: "/agp-replacement.jpg",
     },
   ];
+
   const row1 = productCategories.slice(0, 4);
   const row2 = productCategories.slice(4);
 
@@ -59,13 +73,13 @@ export default function CoreProductCategories() {
   };
 
   return (
-    <div className="flex flex-col gap-12 max-w-6xl mx-auto py-24">
+    <div className="flex flex-col gap-12 max-w-6xl mx-auto py-24 px-4">
       <motion.h2
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className="text-5xl font-semibold uppercase text-center"
+        className="text-4xl md:text-5xl font-semibold uppercase text-center"
       >
         Core Product <span className="text-[#00116E]">Categories</span>
       </motion.h2>
@@ -75,21 +89,22 @@ export default function CoreProductCategories() {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true }}
-        className="flex justify-center gap-6 md:flex-row flex-col items-center"
+        className=" gap-6 grid md:grid-cols-4 grid-cols-2 md:max-w-5xl mx-auto"
       >
         {row1.map((c, i) => (
           <motion.div key={i} variants={item}>
             <Link href={c.href}>
               <motion.div
-                whileHover={{
-                  scale: 1.1,
-                  transition: { duration: 0.25, ease: "easeOut" },
-                }}
-                className="w-40 h-40 cursor-pointer rounded-full bg-[#213785] flex items-center justify-center text-center shadow-md"
+                whileHover={{ scale: 1.1 }}
+                className="relative w-40 h-40 rounded overflow-hidden cursor-pointer hover:shadow-lg"
               >
-                <p className="text-white font-semibold text-base px-4">
-                  {c.name}
-                </p>
+                <Image
+                  src={c.image}
+                  alt={c.name}
+                  fill
+                  className="object-cover"
+                />
+                
               </motion.div>
             </Link>
           </motion.div>
@@ -101,21 +116,22 @@ export default function CoreProductCategories() {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true }}
-        className="flex justify-center gap-6 md:flex-row flex-col items-center"
+        className="gap-6 grid md:grid-cols-4 grid-cols-2 md:max-w-5xl mx-auto"
       >
         {row2.map((c, i) => (
           <motion.div key={i} variants={item}>
             <Link href={c.href}>
               <motion.div
-                whileHover={{
-                  scale: 1.1,
-                  transition: { duration: 0.25, ease: "easeOut" },
-                }}
-                className="w-40 h-40 cursor-pointer rounded-full bg-[#213785] flex items-center justify-center text-center shadow-md"
+                whileHover={{ scale: 1.1 }}
+                className="relative w-40 h-40 rounded overflow-hidden cursor-pointer hover:shadow-lg"
               >
-                <p className="text-white font-semibold text-base px-4">
-                  {c.name}
-                </p>
+                <Image
+                  src={c.image}
+                  alt={c.name}
+                  fill
+                  className="object-cover"
+                />
+                
               </motion.div>
             </Link>
           </motion.div>

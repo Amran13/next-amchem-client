@@ -82,7 +82,7 @@ const WhyDistributeWithUs = () => {
           </div>
 
           <div className="lg:col-span-3 ">
-            <div className="h-full max-w-[380px] w-full rounded-2xl bg-[#212E84] text-white p-6 flex flex-col">
+            <div className="h-full max-w-[360px] w-full rounded-2xl bg-[#212E84] text-white p-6 flex flex-col">
               <SparklesIcon className="w-10 h-10 mb-4" />
               <h3 className="text-lg font-semibold mb-3">Growing Portfolio</h3>
               <p className="text-sm leading-relaxed flex-grow">

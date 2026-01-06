@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const DistributorApplication = () => {
@@ -10,18 +11,14 @@ const DistributorApplication = () => {
 
         <p className="mb-4">
           Online application form available at:{" "}
-          <span className="underline text-primary">
-            www.amchem-bv.com/distribution-application
+          <Link href="/contact">
+          <span className="hover:underline text-primary">
+            Contact Page
           </span>
+          </Link>
         </p>
 
-        <p>
-          Contact:{" "}
-          <span className="underline text-primary">
-            distribution@amchem-bv.com
-          </span>{" "}
-          +31 [Contact Number]
-        </p>
+        
       </div>
     </section>
   );

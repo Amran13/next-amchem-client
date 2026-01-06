@@ -1,9 +1,12 @@
 import { productsData } from "@/data/products"
 import ProductCard from "@/components/ProductCard"
 
-export default function Page({ params }) {
+export default async function Page({ params }) {
+  const {name} = await params
+  // console.log(name)
   const allItems = productsData.categories.flatMap(c => c.items)
-  const filtered = allItems.filter(p => p.species.includes(params.name))
+  const filtered = allItems.filter(p => p.species.includes(name))
+
 
   return (
     <div className="p-6 space-y-6 max-w-7xl mx-auto">

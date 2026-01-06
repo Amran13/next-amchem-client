@@ -41,9 +41,9 @@ export default function Commitment() {
   ];
 
   return (
-    <section className="py-20 px-6">
-      <div className="max-w-7xl mx-auto">
-        <h2 className="text-5xl font-bold text-[#213785] uppercase mb-8">Our Commitment to You</h2>
+    <section className="py-20">
+      <div className="max-w-7xl mx-auto px-20">
+        <h2 className="md:text-5xl text-4xl font-bold text-[#213785] uppercase mb-8">Our Commitment to You</h2>
         {/* MAIN GRID */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
 

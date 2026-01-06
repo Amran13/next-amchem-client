@@ -1813,7 +1813,7 @@ export const productsData = {
           storage: "Appropriate bulk containers at 15-30°C.",
           shelf_life: "24 months For Veterinary Use Only",
           veterinary_use_only: true,
-          species: [,"aquaculture"]
+          species: ["aquaculture"]
         },]
     },
     {

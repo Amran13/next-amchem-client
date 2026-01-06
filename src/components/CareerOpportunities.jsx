@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const CareerOpportunities = () => {
@@ -28,20 +29,18 @@ const CareerOpportunities = () => {
         </p>
 
         <p className="mb-6">
-          <strong>Qualifications:</strong> Bachelor's or Master's degree
+          <strong>"Qualifications:</strong> Bachelor's or Master's degree
           (graduated within 2 years), strong academic record, English
-          proficiency, willingness to learn and travel
+          proficiency, willingness to learn and travel"
         </p>
 
         <p className="mb-10">
           <strong>Application:</strong> Submit CV and cover letter to{" "}
-          <a
-            href="mailto:careers@amchem-bv.com"
-            className="text-primary underline"
-          >
-            careers@amchem-bv.com
-          </a>{" "}
-          (Sample)
+          <span className="hover:underline text-blue-900 font-bold">
+            <Link href="/contact">
+          Contact Page
+          </Link>
+          </span>
         </p>
       </div>
     </section>

@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="bg-[#212E84] text-zinc-50">
       <footer className="footer sm:footer-horizontal p-10 py-24 max-w-[1280px] mx-auto">
         <aside>
-          <Link href="/" className="mb-3 inline-block">
+          <Link href="/" className="mb-3 inline-block -ml-2">
             <img src="/logo.png" alt="AMCHEM Logo" className="h-16 w-auto" />
           </Link>
           <p className="text-sm leading-relaxed">

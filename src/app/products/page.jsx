@@ -15,13 +15,14 @@ export default function Page() {
       </div>
 
       <div>
-        <h1 className="md:text-5xl text-3xl font-bold mb-4 text-[#212E84]">Solution by Species</h1>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <h1 className="md:text-5xl text-3xl font-bold mb-4 text-[#212E84] pt-12">Solution by Species</h1>
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 gap-y-20 py-12">
           {/* console.log(arrOfSpecies) */}
           {arrOfSpecies.map(s => {
   const slug = s.trim().includes(" ")
     ? s.trim().toLowerCase().replace(/\s+/g, "-")
     : s;
+    // console.log(`slug :`, slug)
 
   return <SpeciesCard key={slug} name={slug} />;
 })}

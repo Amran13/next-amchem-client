@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { FiSettings, FiCheckSquare, FiMail } from "react-icons/fi";
 
@@ -46,9 +47,11 @@ const ProductionOperators = () => {
               <p className="text-base-content/80">
                 <span className="font-semibold">Application:</span> Submit
                 application to{" "}
-                <span className="text-primary font-medium">
-                  production.jobs@amchem-bv.com
-                </span>
+                <span className="hover:underline text-blue-900 mr-1  font-bold">
+                     <Link  href="/contact">
+                      Contact Page 
+                    </Link>
+                  </span>
               </p>
             </div>
           </div>

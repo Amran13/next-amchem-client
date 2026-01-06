@@ -42,7 +42,7 @@ export default function OurCoreValues() {
     <section className="pt-16 pb-32 bg-[#F2F4F3]">
       <div className="max-w-5xl mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="text-5xl uppercase text-[#00116E] font-bold">
+          <h2 className="md:text-5xl text-4xl uppercase text-[#00116E] font-bold">
             Our Core Values
           </h2>
         </div>
