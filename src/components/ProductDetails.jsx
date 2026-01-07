@@ -2,7 +2,7 @@
 
 export default function ProductDetails({ product }) {
   return (
-    <div className="max-w-6xl mx-auto px-4 py-10 text-black">
+    <div className="max-w-5xl mx-auto px-4 py-10 text-black">
 
       <div className="bg-[#1f4e79] text-white px-6 py-4">
         <h1 className="text-xl md:text-2xl font-bold">
@@ -30,13 +30,6 @@ export default function ProductDetails({ product }) {
               ))
             }
 
-            {section.type === "list" && (
-              <ul className="list-disc pl-6">
-                {section.items.map((item, i) => (
-                  <li key={i}>{item}</li>
-                ))}
-              </ul>
-            )}
 
             {section.type === "table" && (
               <>
@@ -76,7 +69,7 @@ export default function ProductDetails({ product }) {
                 </div>
 
                 {section.footer && (
-                  <p className="italic mt-2">{section.footer}</p>
+                  <p className="text-sm mt-2">{section.footer}</p>
                 )}
               </>
             )}

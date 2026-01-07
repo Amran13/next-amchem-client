@@ -10,7 +10,7 @@ export function generateStaticParams() {
     { name: "cattle" },
     { name: "turkey" },
     { name: "goats-and-sheep" },
-    { name: "rabbits" },
+    { name: "rabbit" },
   ];
 }
 
